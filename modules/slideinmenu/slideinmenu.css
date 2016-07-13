@@ -1,0 +1,32 @@
+#slidedownmenu {
+    position:absolute;
+    height:628px;
+    width:178px;
+   top:97px;
+    left:-178px;
+    background:url('../../shared_assets/img/bgThumbs.png') no-repeat -14px top;
+    z-index:99999999999999999999999999999999;
+}
+
+a.glossary{
+    width:46px;
+    height:35px;
+    background:url('../../shared_assets/img/glossaryIcon.png') no-repeat;
+    display:block;
+    margin:10px 0 0 20px;
+    position:relative;
+    z-index:999999999999999999999999999999999999;
+}
+
+#slidedownmenu .handle {
+    position:absolute;
+    left:178px;
+    top:0;
+    width:28px;
+    height:100%;
+    background:url('../../shared_assets/img/bgThumbs.png') no-repeat top right;
+    -webkit-border-top-right-radius: 10px;
+    z-index:99999999;
+}
+
+

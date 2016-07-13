@@ -1,0 +1,30 @@
+#mainmenu{padding:0; height:auto; width:1024px; background: #fff;}
+
+#mainmenu ul#presentationMenu {
+    margin:0 0 0 0px; 
+    width:2000px;
+    padding:10px 300px 0px 44px;
+    float:left;
+	height:44px;
+}
+
+#mainmenu ul#presentationMenu li {
+    display:inline-block;
+    margin:0 0 0 40px; 
+    padding:10px 0px 0 0; 
+
+    text-transform:uppercase;
+    color:#0099B1;
+    font-size:17px;
+    background: none;
+    font-family: HelveticaNeue_Heavy;
+}
+
+/* home button */
+#mainmenu ul#presentationMenu li:nth-child(2){padding-right:2px;padding-left:0px;color:transparent;background: url('../../shared_assets/img/home.png') no-repeat scroll center center;}
+/*
+#mainmenu ul#presentationMenu li.selected:nth-child(2),#mainmenu ul#presentationMenu li:nth-child(2):active{color:transparent;background: url('../../shared_assets/img/home_selected.png') no-repeat scroll center center;}
+*/
+
+#mainmenu ul#presentationMenu li:active{border-bottom: 2px solid #EE6F36;}
+#mainmenu ul#presentationMenu li.selected{border-bottom: 2px solid #EE6F36;}

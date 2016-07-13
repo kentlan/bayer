@@ -1,0 +1,126 @@
+.basicthumbs {
+    /*    display:-webkit-box;
+  -webkit-box-orient:horizontal;
+  background-color:#71777B;
+  padding: 10px 0;*/
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    background-color:#71777B;
+    padding: 10px 0;
+}
+.basicthumbs li {
+    /*    color:#ddd;
+  text-align:center;
+  -webkit-box-flex:0;
+  padding: 0 5px;
+  min-width: 136px;
+  border-left: 1px solid #919599;
+  border-right: none;
+  background-color: #71777B;
+  padding: 5px 0;*/
+    color: #DDD;
+    text-align: center;
+    padding: 0 5px;
+    min-width: 106px;
+    border-left: 1px solid #919599;
+    border-right: none;
+    background-color: #71777B;
+    padding: 5px 0;
+    display: inline-block;
+    position: relative;
+}
+.basicthumbs .selected {background: none;}
+.basicthumbs li img {opacity: 0.5;}
+.basicthumbs .selected img {opacity: 1;}
+.basicthumbs li:first-child{border-left: none;}
+
+.thumbindicator {
+    padding:15px;
+}
+
+.thumb-button-placeholder{
+    display: none;
+    width: 100%;
+    height: 22px;
+    position: absolute;
+    top: -22px;   
+    z-index:99999999999999999999999999999999999999999; 
+}
+
+.thumb-button-placeholder.show{
+    display: block;
+}
+
+
+
+#thumbs {
+    height:570px; 
+    overflow:auto; 
+    padding-left:20px;
+}
+
+#closeMenu{display:none; width:1024px; height:728px; position:absolute; top:40px; left:0px; z-index:999999999999999999999999999999;}
+
+
+
+.scroll-wrapper {
+}
+
+#thumbs ul {
+    list-style: none;
+    height: 100%;
+    position:relative;
+    z-index:999999999999999;
+    padding:0;
+}
+
+#thumbs li {
+    display: inline-block;
+    list-style: none;
+    padding:0px;
+    background:none;
+    margin:10px 0;
+}
+
+#thumbs li img{
+    opacity: 0.5;
+    -webkit-opacity: 0.5;
+}
+
+#thumbs li.active  img{
+    opacity: 1;
+    -webkit-opacity: 1;
+}
+
+#thumbs li.active {
+    background:#666;
+}
+
+.indicators {
+    position: absolute;
+    top: 45%;
+    left: 6px;
+    display: block;
+    text-align: center;
+}
+
+.indicators .indicator {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    margin-right: 6px;
+    -webkit-border-radius: 4px;
+}
+
+.indicators .indicator.active {
+    background:#00ABBD;
+}
+.th_show {display: block;}
+.foter{
+    width: 100%;
+    height: 55px;
+    z-index: 10;
+    background: url("../../content/img/left-logo.png") no-repeat 10px 10px, url("../../content/img/right-logo.png") no-repeat right 10px,white;
+}

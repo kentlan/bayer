@@ -1,0 +1,108 @@
+
+
+/* Gallery styles */
+
+#gallery{	
+	/* The width of the gallery */
+	width:940px;
+	overflow:hidden;
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+
+#slidesContainer{width:720px; overflow:hidden; float:left; margin-left:20px;}
+ 
+#gallery #slides{
+	/* This is the slide area */
+	
+	/* jQuery changes the width later on to the sum of the widths of all the slides. */
+	width:720px;
+	overflow:hidden;
+	float:left;
+}
+
+#gallery .slide{
+	float:left;
+	background:#fff;
+	width:720px; 
+	height:580px;
+}
+
+#gallery .slide ul li{display:inline-block; width:138px; background:none; text-align:center;}
+
+#gallery #menu{
+	/* This is the container for the thumbnails */
+	width:190px;
+	float:left;
+	overflow:hidden;
+}
+
+#gallery #menu ul{
+	margin:0px;
+	padding:0px;
+}
+
+#gallery #menu li{
+	/* Every thumbnail is a li element */
+	width:138px;
+	display:inline-block;
+	list-style:none;
+	height:45px;
+	overflow:hidden;
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#dfdfdf), to(#9f9f9f));
+}
+
+#gallery #menu li.inact:hover{
+	/* The inactive state, highlighted on mouse over */
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#9f9f9f), to(#dfdfdf));
+}
+
+#gallery #menu li.act,li.act:hover{
+	/* The active state of the thumb */
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#bebbbb), to(#616161));
+}
+
+#gallery #menu li.act a{
+	cursor:default;
+}
+
+#gallery .fbar{
+	/* The left-most vertical bar, next to the first thumbnail */
+	width:2px;
+}
+
+#gallery #menu li a{
+	display:block;
+	height:45px;
+	color:#000;
+	text-decoration:none;
+	padding:10px 0;
+}
+
+#gallery a img{
+	border:none;
+}
+
+
+#glossary #chapterlist li
+{
+    display: inline;
+    float: left;
+    width: 205px;
+    position: relative;
+    padding:0 0 0 0;
+}
+
+#glossary #chapterlist li ul li{width: 138px; margin-bottom:10px;}
+
+#glossary #glossaryscroller
+{
+  
+    -webkit-transition: all 0.5s ease-out;
+    position: absolute;
+    left: 0px;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+#glossary #FingerScroll {height: 550px; position: absolute; left: 0px; overflow-y: scroll; top: 0px; width:3100px;}

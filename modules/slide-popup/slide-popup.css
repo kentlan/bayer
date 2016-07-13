@@ -1,0 +1,14 @@
+.slide-popup {
+  position:absolute;
+  top:0px;
+  opacity:0;
+  -webkit-transition:opacity 1s;
+}
+
+.slide-popup.displaying {
+  opacity:1;
+}
+.slide-popup.displaying {
+  margin:0;
+  overflow:hidden;
+}

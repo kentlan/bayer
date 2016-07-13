@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Strings>
+  <Content area="topNavigationMenu">
+    <String name="builderButtonText">Salida</String>
+  </Content>
+  <Content area="glossary">
+    <String name="glossaryTitle">Directorio</String>
+    <String name="closeButtonText">Cerrar</String>
+  </Content>
+  <Content area="showPlayListPage">
+    <String name="createNewPresentationTitle">Crear una presentación nueva</String>
+    <String name="existingPresentationsTitle">Las presentaciones existentes</String>
+    <String name="existingPresentationsText">Para editar o eliminar una presentación, seleccione el botón correspondiente junto a la presentación que desea editar o borrar.</String>
+    <String name="noPresentationsText">No hay presentaciones guardadas para jugar</String>
+    <String name="deletePresentationTitle">Eliminar Presentación</String>
+    <String name="deletePresentationText">¿Está seguro que desea eliminar esta presentación?</String>
+    <String name="deletePresentationYesButton">Sí</String>
+    <String name="deletePresentationNoButton">No</String>
+  </Content>
+  <Content area="builderPage">
+    <String name="createNewPresentationTitle">Crear una presentación nueva</String>
+    <String name="createNewPresentationText">Seleccione las secciones de la izquierda para añadirlos a su presentación a la derecha. Toque los botones menos rojo para anular la selección de una sección. Secciones volverá a pedir en el orden en que se seleccionan. Pulse sobre el botón Siguiente para seleccionar diapositivas específicas dentro de las secciones.</String>
+    <String name="createNewPresentationSlidesText">Toque en las miniaturas para seleccionar diapositivas. Si pulsa el botón Anterior sus selecciones no se guardarán. Aconsejamos a 10 diapositivas para una presentación de máximo 10 minutos. Puntee en Siguiente para guardar la presentación.</String>
+    <String name="saveDialogTitle">Por favor, introduzca el nombre de la presentación y pulse en ahorrar:</String>
+    <String name="saveDialogText">Aconsejamos a 10 diapositivas para una presentación de máximo 10 minutos. Usted tiene &lt;label id='slidesNumber'&gt;&lt;/ label&gt; diapositivas. Por favor, escriba un nombre para esta presentación.</String>
+    <String name="saveallbutton">Ahorrar</String>
+    <String name="cancelsave">Cancelar</String>
+    <String name="nameAlreadyExistsDialogTitle">Please choose a new name</String>
+    <String name="nameAlreadyExistsDialogText">A presentation with this name already exists.&lt;br /&gt;Please select another.</String>
+    <String name="nameAlreadyExistsOKButton">OK</String>
+    <String name="pleaseEnterNameDialogTitle">Por favor, elija un nuevo nombre</String>
+    <String name="pleaseEnterNameDialogText">Por favor, introduzca un nombre antes de guardarlo</String>
+    <String name="pleaseEnterNameWindowOKButton">OK</String>
+    <String name="allSlidesRequiredDialogTitle">Todas las diapositivas se requiere</String>
+    <String name="allSlidesRequiredDialogText">En esta sección se requiere que todos sus diapositivas se muestran. &lt;br /&gt; Usted no será capaz de anular la selección de cualquiera de ellos en la siguiente página.</String>
+    <String name="allSlidesRequiredOKButton">OK</String>
+    <String name="sectionCannotBeDeselectedTitle">No se puede anular la selección de esta sección</String>
+    <String name="sectionCannotBeDeselectedText">Esta sección no puede ser seleccionado</String>
+    <String name="sectionCannotBeDeselectedOKButton">OK</String>
+    <String name="slideCannotBeDeselectedTitle">No se puede anular la selección de esta diapositiva</String>
+    <String name="slideCannotBeDeselectedText">Esta diapositiva no puede ser seleccionado</String>
+    <String name="slideCannotBeDeselectedOKButton">OK</String>
+    <String name="playPresentationDialogTitle">¿Quieres jugar a la presentación ahora?</String>
+    <String name="playPresentationDialogText">Si pulsa "No" volverá a la página del menú.</String>
+    <String name="playYes">Sí</String>
+    <String name="playNo">No</String>
+    <String name="saveChapterFirst">Guardar un capítulo antes de agregar diapositivas</String>
+    <String name="selectSlidesFirst">Por favor, seleccione las diapositivas de cada sección antes de guardar</String>
+    <String name="okButton">OK</String>
+  </Content>
+  <Content area="editPage">
+    <String name="editPresentationText">Please select the chapters you would like to edit in your presentation and then click 'Next'.</String>
+    <String name="saveDialogText">Presentation slides have been updated, do you want to save the presentation now?</String>
+    <String name="saveallbutton">Save</String>
+    <String name="cancelsave">Cancel</String>
+    <String name="playPresentationDialogTitle">Do you want to play the presentation now?</String>
+    <String name="playYes">Yes</String>
+    <String name="playNo">No</String>
+    <String name="allSlidesRequiredDialogTitle">All slides required</String>
+    <String name="allSlidesRequiredDialogText">This section requires that all of its slides are shown.&lt;br /&gt;You will not be able to deselect any of them on the next page.</String>
+    <String name="allSlidesRequiredOKButton">OK</String>
+    <String name="sectionCannotBeDeselectedTitle">Cannot deselect this section</String>
+    <String name="sectionCannotBeDeselectedText">This section cannot be deselected</String>
+    <String name="sectionCannotBeDeselectedOKButton">OK</String>
+    <String name="slideCannotBeDeselectedTitle">Cannot deselect this slide</String>
+    <String name="slideCannotBeDeselectedText">This slide cannot be deselected</String>
+    <String name="slideCannotBeDeselectedOKButton">OK</String>
+    <String name="saveChapterFirst">Save a chapter before adding slides</String>
+    <String name="selectSlidesFirst">Please select slides in each section before saving</String>
+    <String name="okButton">OK</String>
+    <String name="pagetitle">Edit</String>
+    <String name="pagetitle2">Edit Presentation</String>
+    <String name="editPresentationText">Please select the slides you would like to include in your presentation and then click "NEXT"</String>
+  </Content>
+</Strings>

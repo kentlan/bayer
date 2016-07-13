@@ -1,0 +1,13 @@
+.right #slideshows{
+	-webkit-transform: translate3d(-1024px, 0, 0);
+}
+.left #slideshows{
+	-webkit-transform: translate3d(1024px, 0, 0);
+}
+#presentation.active #slideshows{
+	-webkit-transition-duration: 500ms;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#presentation .slideshow.zerro-transition{
+	-webkit-transition: 0;
+}
