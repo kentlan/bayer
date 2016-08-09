@@ -7,7 +7,7 @@
 				app.menu.show(); 
 				util.addClass(slide.element.painContent, 'active');
 
-				presentetion.bgStyle('Qlaira_Vita', 'bg_s1_', 35);
+				presentetion.bgStyle('nv1', 'bg_s1_', 16);
 				presentetion.prev('qlaira', 'qlaira_1', "s1_1");					
 				//submitSlideEnter('slideId', 'slideName', slideIndex, 'parentName', 'grandparentName');
 				submitSlideEnter('s1_1', '1', 1, '1', 'A WH_Beauty_1_cycle_2015');
