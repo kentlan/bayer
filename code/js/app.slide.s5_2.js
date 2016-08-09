@@ -1,19 +1,18 @@
 	document.addEventListener('presentationInit', function(){
-		var slide = app.slide.s4_1 = {
+		var slide = app.slide.s4_2 = {
 			elements: {
-      		painContent: "#s4_1_2"
+      		painContent: "#s4_2_2"
     		},
 			onEnter:function(slideElement){
 				app.menu.show(); 
 				util.addClass(slide.element.painContent, 'active');
 				presentetion.menuTop("Mir");	
-				presentetion.menuTopSelected("menu_top_1");
-				presentetion.bgStyle('rv1', 'rv1_', 17);
-				presentetion.prev('mir', 'mir_1', "s4_1");					
+				presentetion.menuTopSelected("menu_top_2");
+				presentetion.prev('mir', 'mir_2', "s4_2");					
 				//submitSlideEnter('s1_1', '1', 1, '1', 'A WH_Beauty_1_cycle_2015');
 			},
 			onExit:function(slideElement){
-				submitSlideExit('s4_1');
+				submitSlideExit('s4_2');
 				
 	
 			}
