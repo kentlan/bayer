@@ -8,7 +8,7 @@
 				util.addClass(slide.element.painContent, 'active');
 				presentetion.menuTop("Mir");	
 				presentetion.menuTopSelected("menu_top_1");
-				presentetion.bgStyle('rv3', 'rv3_', 12);
+				presentetion.bgStyle('rv3', 'rv3_', 5);
 				presentetion.prev('mir', 'mir_1', "s6_1");
 				//submitSlideEnter('s1_1', '1', 1, '1', 'A WH_Beauty_1_cycle_2015');
 			},
