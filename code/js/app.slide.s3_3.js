@@ -7,7 +7,7 @@
 				app.menu.show(); 
 				util.addClass(slide.element.painContent, 'active');
 				presentetion.menuTopSelected("menu_top_3");					
-				presentetion.prev('flex', 'flex_3', "s3_3");			
+				presentetion.prev('nviz3', 'nviz3', "s3_3");
 				submitSlideEnter('s3_1', '2', 2, '2', 'A WH_Beauty_1_cycle_2015');
 			},
 			onExit:function(slideElement){

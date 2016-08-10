@@ -9,7 +9,7 @@
 				presentetion.menuTop("Flex");	
 				presentetion.menuTopSelected("menu_top_1");							
 				presentetion.bgStyle('nv3', 'nv3_', 5);
-				presentetion.prev('flex', 'flex_1', "s3_1");			
+				presentetion.prev('nviz3', 'nviz3', "s3_1");
 				
 
 				submitSlideEnter('s3_1', '2', 2, '2', 'A WH_Beauty_1_cycle_2015');

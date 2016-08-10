@@ -8,7 +8,7 @@
 				util.addClass(slide.element.painContent, 'active');
 
 				presentetion.bgStyle('nv1', 'nv1_', 7);
-				presentetion.prev('qlaira', 'qlaira_1', "s1_1");					
+				presentetion.prev('nviz1', 'nviz1', "s1_1");
 				//submitSlideEnter('slideId', 'slideName', slideIndex, 'parentName', 'grandparentName');
 				submitSlideEnter('s1_1', '1', 1, '1', 'A WH_Beauty_1_cycle_2015');
 			},

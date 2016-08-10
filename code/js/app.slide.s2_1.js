@@ -7,7 +7,7 @@
 				app.menu.show(); 
 				util.addClass(slide.element.painContent, 'active');
 				presentetion.bgStyle('nv2', 'nv2_', 7);
-				presentetion.prev('vis', 'vis_1', "s2_1");			
+				presentetion.prev('nviz2', 'nviz2', "s2_1");
 				//submitSlideEnter('slideId', 'slideName', slideIndex, 'parentName', 'grandparentName');
 				submitSlideEnter('s2_1', '2', 2, '2', 'A WH_Beauty_1_cycle_2015');
 				scrolNav();

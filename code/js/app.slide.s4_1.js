@@ -9,7 +9,7 @@
 				presentetion.menuTop("Mir");	
 				presentetion.menuTopSelected("menu_top_1");
 				presentetion.bgStyle('rv1', 'rv1_', 7);
-				presentetion.prev('mir', 'mir_1', "s4_1");					
+				presentetion.prev('nviz4', 'nviz4', "s4_1");
 				//submitSlideEnter('s1_1', '1', 1, '1', 'A WH_Beauty_1_cycle_2015');
 			},
 			onExit:function(slideElement){

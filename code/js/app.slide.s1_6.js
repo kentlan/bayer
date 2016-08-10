@@ -7,7 +7,7 @@ document.addEventListener('presentationInit', function() {
     onEnter: function(ele) {
      app.menu.show(); 
      util.addClass(slide.element.painContent, 'active');
-     presentetion.prev('qlaira', 'qlaira_2', "s1_6");       	
+     presentetion.prev('nviz1', 'nviz1', "s1_6");
      submitSlideEnter('s1_6', '6', 6, '6', 'A WH_Beauty_1_cycle_2015');	  
    },
    onExit: function(ele) {

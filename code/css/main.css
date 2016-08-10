@@ -990,7 +990,7 @@ sup {
 }
 
  .indicator.active {
-  background-color: #fff;
+  background-color: #33a4ff;
  }
 
 .touch_scroll {
@@ -1017,6 +1017,10 @@ sup {
   opacity:1;
 }
 
+.preview-container img {
+ width: 100%;
+ margin: 20px 0;
+}
 
 
 .jass .indicator.active {

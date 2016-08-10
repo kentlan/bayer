@@ -2,6 +2,7 @@
 @import url("_framework/styles/slideshow.css");
 @import url("_framework/styles/core.css");
 
+@import url("code/css/jquery-ui.css");
 @import url("code/css/main.css");
 @import url("code/css/fonts.css");
 

@@ -6,7 +6,7 @@
 			onEnter:function(slideElement){
 				app.menu.show(); 
 				util.addClass(slide.element.painContent, 'active');
-				presentetion.prev('qlaira', 'qlaira_2', "s1_5");	
+				presentetion.prev('nviz1', 'nviz1', "s1_5");
 				submitSlideEnter('s1_5', '5', 5, '5', 'A WH_Beauty_1_cycle_2015');
 				
 			},
