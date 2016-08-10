@@ -8,7 +8,7 @@
 				util.addClass(slide.element.painContent, 'active');
 				presentetion.menuTop("Flex");	
 				presentetion.menuTopSelected("menu_top_1");							
-				presentetion.bgStyle('nv3', 'nv3_', 13);
+				presentetion.bgStyle('nv3', 'nv3_', 6);
 				presentetion.prev('flex', 'flex_1', "s3_1");			
 				
 
