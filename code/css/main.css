@@ -672,17 +672,16 @@ sup {
  background-image: url('../../content/img/title.png');
 }
 
-.bg_s0n, .bg_s0r {
+
+.bg_s0n {
+ background-image: url("../../content/img/visit-nevr.png");
+}
+
+.bg_s0r {
  background-image: url('../../content/img/vizit-revm.png');
 }
 
-.bg_mir {
-  background-image: url('../../content/img/mir/bg.png');
-}
 
-.fon_vis {
-  background-image: url('../../content/img/Vis/Vis_back.png');
-}
 
 .btn_menu {
   width: 87px;
@@ -744,12 +743,12 @@ sup {
 .btn_s0r, .btn_s0n {
  width: 370px;
  height: 100px;
- top: 269px;
+ top: 415px;
  left: 539px;
 }
 
 .btn_s0n {
- top: 415px;
+ top: 269px;
 }
 
 .btn_s1_1, .btn_s1_2, .btn_s1_3, .btn_s1_4, .btn_s1_5, .btn_s1_6 {
