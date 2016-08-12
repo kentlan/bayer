@@ -8,6 +8,43 @@
 				util.addClass(slide.element.painContent, 'active');
 				presentetion.prev('nviz2', 'nviz2', "s2_2");
 				submitSlideEnter('s2_1', '2', 2, '2', 'A WH_Beauty_1_cycle_2015');
+
+
+				var sliderTooltip = function(event, ui) {
+					var curValue = ui.value || 1;
+					var tooltip = '<div class="tooltip"><div class="tooltip-inner">' + curValue + '</div><div class="tooltip-arrow"></div></div>';
+
+					$('.ui-slider-handle').html(tooltip);
+
+					if(ui.value >= 10) {
+						$('.nv2_2 .disease').hide();
+						$('.nv2_2 .tissue').addClass("changed");
+					} else if (ui.value >= 5) {
+						$('.nv2_2 .disease').addClass("changed");
+					} else {
+						$('.nv2_2 .disease, .nv2_2 .tissue').show().removeClass("changed");
+					}
+
+				}
+
+				$( "#nv2_2_slider" ).slider({
+					value : 0,//Значение, которое будет выставлено слайдеру при загрузке
+					min : 0,//Минимально возможное значение на ползунке
+					max : 10,//Максимально возможное значение на ползунке
+					step : 1,//Шаг, с которым будет двигаться ползунок
+					range: 'min',
+					create: sliderTooltip,
+					slide: sliderTooltip
+				});
+
+
+
+				openPopup('.nv2_2 .button', '.nv2_2 .popup');
+
+				openSource('.nv2_2 .info-btn', '.nv2_2 .source')
+
+
+
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s2_1');

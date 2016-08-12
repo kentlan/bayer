@@ -8,6 +8,20 @@
 				util.addClass(slide.element.painContent, 'active');
 				presentetion.prev('nviz2', 'nviz2', "s2_4");
 				submitSlideEnter('s2_4', '2', 2, '2', 'A WH_Beauty_1_cycle_2015');
+
+				$('#nv2_4-drag').draggable({
+					revert: true
+				});
+				$('#nv2_4-drop').droppable({
+					drop: function(){
+						$('#nv2_4-drag').hide(1000);
+						setTimeout(
+							function () {
+								app.slideshow.next()
+							}
+							, 1200)
+					}
+				});
 			},
 			onExit:function(slideElement){
 				util.removeClass(slide.element.painContent,'active');

@@ -871,7 +871,7 @@ sup {
  position: absolute;
  top: 0;
  left: 0;
- z-index: 10;
+ z-index: 40;
  height: 100%;
  width: 100%;
  background-size: cover;
@@ -959,7 +959,7 @@ sup {
 
 
 
-#nv1_3-drag, #nv1_4-drag {
+#nv1_3-drag, #nv1_4-drag, #nv2_3-drag, #nv2_4-drag {
  position: absolute;
  left: 283px;
  top: 449px;
@@ -969,15 +969,15 @@ sup {
  background-size: cover;
 }
 
-#nv1_3-drag {
+#nv1_3-drag, #nv2_3-drag {
  background-image: url("../../content/img/nv1/tools/nv1_3_1.png");
 }
 
-#nv1_4-drag {
+#nv1_4-drag, #nv2_4-drag {
  background-image: url("../../content/img/nv1/tools/nv1_4_1.png");
 }
 
-#nv1_3-drop, #nv1_4-drop {
+#nv1_3-drop, #nv1_4-drop, #nv2_3-drop, #nv2_4-drop {
  height: 355px;
  width: 355px;
  border-radius: 50%;
@@ -987,15 +987,15 @@ sup {
 }
 
 
-.nv1_5 .source {
+.nv1_5 .source, .nv2_5 .source {
  background-image: url("../../content/img/nv1/tools/nv1_5_1.png");
 }
 
-.nv1_5 .popup {
+.nv1_5 .popup, .nv2_5 .popup {
  background-image: url("../../content/img/nv1/tools/nv1_5_2.png");
 }
 
-.nv1_5 .popup .content {
+.nv1_5 .popup .content, .nv2_5 .popup .content {
  position: absolute;
  top: 289px;
  left: 46px;
@@ -1005,17 +1005,17 @@ sup {
  background-image: url("../../content/img/nv1/tools/nv1_5_2_2.png");
 }
 
-.nv1_5 .popup .content.changed {
+.nv1_5 .popup .content.changed, .nv2_5 .popup .content.changed {
  background-image: url("../../content/img/nv1/tools/nv1_5_2_1.png");
 }
 
-.nv1_5 .popup .switch {
+.nv1_5 .popup .switch, .nv2_5 .popup .switch {
  position: absolute;
  top: 627px;
  left: 422px;
 }
 
-.nv1_5 .popup .close-btn {
+.nv1_5 .popup .close-btn, .nv2_5 .popup .close-btn {
  position: absolute;
  right: 22px;
  top: 167px;
@@ -1023,7 +1023,7 @@ sup {
  height: 50px;
 }
 
-.nv1_5 .button {
+.nv1_5 .button, .nv2_5 .button {
  position: absolute;
  top: 560px;
  left: 394px;
@@ -1031,27 +1031,147 @@ sup {
  height: calc(138px/2);
 }
 
-.nv1_6 .switch {
+.nv1_6 .switch, .nv2_6 .switch {
  position: absolute;
  top: 565px;
  left: 422px;
 }
 
-.nv1_6.changed {
+.nv1_6.changed, .nv2_6.changed{
  background-image:  url("../../content/img/nv1/tools/nv1_6_1.png") !important;
 }
 
-.nv1_6 .info-btn {
+.nv1_6 .info-btn, .nv2_6 .info-btn {
  right: 50px;
  top: 45px;
 }
 
-.nv1_6 .source {
+.nv1_6 .source, .nv2_6 .source {
  background-image: url("../../content/img/nv1/tools/nv1_6_2.png");
 }
 
 
 
+.nv2_2 .container {
+ position: relative;
+ left: 444px;
+ top: 126px;
+ width: calc(1159px/2);
+ height: calc(821px/2);
+ background-size: cover;
+ background-image: url("../../content/img/nv2/tools/nv2_2_1_4.png");
+ z-index: 30;
+}
+
+.nv2_2 .container-footer {
+ position: absolute;
+ right: 0;
+ height: calc(203px/2);
+ width: calc(1159px/2);
+ top: 435px;
+ background-image: url("../../content/img/nv2/tools/nv2_2_1_4b.png");
+}
+
+.nv2_2 .disease {
+ position: absolute;
+ top: 127px;
+ left: 0;
+ height: calc(723px/2);
+ width: calc(1166px/2);
+ background-size: cover;
+ background-image: url("../../content/img/nv2/tools/nv2_2_1_3a.png");
+ z-index: 20;
+}
+
+.nv2_2 .disease.changed {
+ background-image: url("../../content/img/nv2/tools/nv2_2_1_3b.png");
+}
+
+.nv2_2 .tissue {
+ position: absolute;
+ bottom: 108px;
+ left: 0;
+ height: calc(1028px/2);
+ width: calc(2048px/2);
+ background-size: cover;
+ background-image: url("../../content/img/nv2/tools/nv2_2_1_2a.png");
+ z-index: 10;
+}
+
+.nv2_2 .tissue.changed {
+ background-image: url("../../content/img/nv2/tools/nv2_2_1_2b.png");
+}
+
+.nv2_2 .slider {
+ position: relative;
+ top: 294px;
+ left: 60px;
+ width: calc(875px/2);
+ height: calc(107px/2);
+ background-size: cover;
+ background-image: url("../../content/img/slider.png")
+}
+
+.nv2_2 .slider #nv2_2_slider {
+ position: absolute;
+ top: 2px;
+ height: calc(107px/2);
+ width: 329px;
+ background: none;
+ border: none;
+}
+
+.nv2_2 .slider #nv2_2_slider .ui-slider-handle {
+ height: calc(141px/2);
+ width: calc(246px/2);
+ background-size: cover;
+ background-image:  url("../../content/img/slider-handle.png");
+ background-color: transparent;
+ border: none;
+}
+
+.nv2_2 .slider #nv2_2_slider .ui-slider-range-min {
+ background-size: cover;
+ background-color: transparent;
+ background-image:  url("../../content/img/slider-blue.png");
+}
+
+.tooltip {
+ color: white;
+ padding-left: 47px;
+ margin-top: -47px;
+ font-size: 30px;
+}
+
+.nv2_2 .button {
+ position: absolute;
+ top: 568px;
+ left: 394px;
+ width: calc(464px/2);
+ height: calc(138px/2);
+ background-size: cover;
+ background-image: url("../../content/img/nv2/tools/nv2_2_1_1.png");
+ z-index: 35;
+}
+
+.nv2_2 .popup {
+ background-image: url("../../content/img/nv2/tools/nv2_2_4.png");
+}
+
+.nv2_2 .popup .close-btn {
+ position: absolute;
+ right: 22px;
+ top: 167px;
+ width: 50px;
+ height: 50px;
+}
 
 
+.nv2_2 .info-btn {
+ right: 50px;
+ top: 45px;
+}
 
+.nv2_2 .source {
+ background-image: url("../../content/img/nv2/tools/nv2_2_3.png");
+}

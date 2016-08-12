@@ -11,15 +11,7 @@ document.addEventListener('presentationInit', function() {
      submitSlideEnter('s1_6', '6', 6, '6', 'A WH_Beauty_1_cycle_2015');
 
 
-        $('.nv1_6 .info-btn').click(
-            function () {
-                $('.nv1_6 .source').show().click(
-                    function () {
-                        $('.nv1_6 .source').hide();
-                    }
-                )
-            }
-        );
+        openSource('.nv1_6 .info-btn', '.nv1_6 .source');
 
         $('.nv1_6 .switch').click(
             function () {
