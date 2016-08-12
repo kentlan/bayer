@@ -9,6 +9,14 @@
 				presentetion.menuTopSelected("menu_top_4");					
 				presentetion.prev('nviz3', 'nviz3', "s3_4");
 				submitSlideEnter('s3_4', '2', 2, '2', 'A WH_Beauty_1_cycle_2015');
+
+				openSource('.nv3_4 .info-btn', '.nv3_4 .source');
+
+				$('.nv3_4 .switch').click(
+					function () {
+						$(".nv3_4").toggleClass("changed");
+					}
+				);
 			},
 			onExit:function(slideElement){
 				util.removeClass(slide.element.painContent,'active');

@@ -9,6 +9,12 @@
 				presentetion.menuTopSelected("menu_top_2");					
 				presentetion.prev('nviz3', 'nviz3', "s3_2");
 				submitSlideEnter('s3_2', '2', 2, '2', 'A WH_Beauty_1_cycle_2015');
+
+				$('.nv3_2 .button').click(
+					function () {
+						app.slideshow.next();
+					}
+				)
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s3_1');
