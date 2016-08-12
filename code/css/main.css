@@ -967,15 +967,15 @@ textarea {
     left: 569px;
 }
 
-.nv1_5 .source, .nv2_5 .source {
+.nv1_5 .source, .nv2_5 .source, .rv1_5 .source {
     background-image: url("../../content/img/nv1/tools/nv1_5_1.png");
 }
 
-.nv1_5 .popup, .nv2_5 .popup {
+.nv1_5 .popup, .nv2_5 .popup, .rv1_5 .popup {
     background-image: url("../../content/img/nv1/tools/nv1_5_2.png");
 }
 
-.nv1_5 .popup .content, .nv2_5 .popup .content {
+.nv1_5 .popup .content, .nv2_5 .popup .content, .rv1_5 .popup .content{
     position: absolute;
     top: 289px;
     left: 46px;
@@ -985,17 +985,17 @@ textarea {
     background-image: url("../../content/img/nv1/tools/nv1_5_2_2.png");
 }
 
-.nv1_5 .popup .content.changed, .nv2_5 .popup .content.changed {
+.nv1_5 .popup .content.changed, .nv2_5 .popup .content.changed, .rv1_5 .popup .content.changed  {
     background-image: url("../../content/img/nv1/tools/nv1_5_2_1.png");
 }
 
-.nv1_5 .popup .switch, .nv2_5 .popup .switch {
+.nv1_5 .popup .switch, .nv2_5 .popup .switch, .rv1_5 .popup .switch {
     position: absolute;
     top: 627px;
     left: 422px;
 }
 
-.nv1_5 .popup .close-btn, .nv2_5 .popup .close-btn {
+.nv1_5 .popup .close-btn, .nv2_5 .popup .close-btn, .rv1_5 .popup .close-btn{
     position: absolute;
     right: 22px;
     top: 167px;
@@ -1003,7 +1003,7 @@ textarea {
     height: 50px;
 }
 
-.nv1_5 .button, .nv2_5 .button {
+.nv1_5 .button, .nv2_5 .button, .rv1_5 .button,.rv1_5 .button {
     position: absolute;
     top: 560px;
     left: 394px;
@@ -1011,7 +1011,7 @@ textarea {
     height: calc(138px / 2);
 }
 
-.nv1_6 .switch, .nv2_6 .switch, .nv3_4 .switch {
+.nv1_6 .switch, .nv2_6 .switch, .nv3_4 .switch, .rv1_6 .switch {
     position: absolute;
     top: 565px;
     left: 422px;
@@ -1021,7 +1021,7 @@ textarea {
     background-image: url("../../content/img/nv1/tools/nv1_6_1.png") !important;
 }
 
-.nv1_6 .info-btn, .nv2_6 .info-btn, .nv3_4 .info-btn {
+.nv1_6 .info-btn, .nv2_6 .info-btn, .nv3_4 .info-btn, .rv1_6 .info-btn {
     right: 50px;
     top: 45px;
 }
@@ -1263,4 +1263,12 @@ textarea {
 
 .rv1_2 .source {
     background-image: url("../../content/img/rv1/tools/rv1_2_5.png");
+}
+
+.rv1_6 .source {
+    background-image: url("../../content/img/rv1/tools/rv1_6_2.png");
+}
+
+.rv1_6.changed, .rv2_6.changed, .rv3_4.changed{
+    background-image: url("../../content/img/rv1/tools/rv1_6_1.png") !important;
 }
