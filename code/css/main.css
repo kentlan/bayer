@@ -1040,8 +1040,25 @@ sup {
 }
 
 
+#nv1_4-drag {
+ position: absolute;
+ left: 302px;
+ top: 470px;
+ width: 130px;
+ height: 130px;
+ border-radius: 50%;
+ background: blue;
+}
 
-
+#nv1_4-drop {
+ height: 355px;
+ width: 355px;
+ border: 2px solid;
+ border-radius: 50%;
+ top: 221px;
+ position: absolute;
+ left: 569px;
+}
 
 
 
