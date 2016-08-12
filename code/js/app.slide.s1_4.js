@@ -14,10 +14,15 @@ document.addEventListener('presentationInit', function () {
             });
             $('#nv1_4-drop').droppable({
                 drop: function(){
-                    $('#nv1_4-drag').hide(3000);
-                    
+                    $('#nv1_4-drag').hide(1000);
+                    setTimeout(
+                        function () {
+                            app.slideshow.next()
+                        }
+                        , 1200)
                 }
             });
+
 
         },
         onExit: function (slideElement) {

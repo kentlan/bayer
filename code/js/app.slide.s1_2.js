@@ -36,7 +36,7 @@
 							}
 						)
 					}
-				)
+				);
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_2');

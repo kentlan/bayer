@@ -957,26 +957,95 @@ sup {
 
 
 
-#nv1_4-drag {
+#nv1_3-drag, #nv1_4-drag {
  position: absolute;
- left: 302px;
- top: 470px;
- width: 130px;
- height: 130px;
+ left: 283px;
+ top: 449px;
+ height: calc(337px/2);
+ width: calc(338px/2);
  border-radius: 50%;
- background: blue;
+ background-size: cover;
 }
 
-#nv1_4-drop {
+#nv1_3-drag {
+ background-image: url("../../content/img/nv1/tools/nv1_3_1.png");
+}
+
+#nv1_4-drag {
+ background-image: url("../../content/img/nv1/tools/nv1_4_1.png");
+}
+
+#nv1_3-drop, #nv1_4-drop {
  height: 355px;
  width: 355px;
- border: 2px solid;
  border-radius: 50%;
  top: 221px;
  position: absolute;
  left: 569px;
 }
 
+
+.nv1_5 .source {
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 10;
+ height: 100%;
+ width: 100%;
+ background-size: cover;
+ background-image: url("../../content/img/nv1/tools/nv1_5_1.png");
+}
+
+.nv1_5 .popup {
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 10;
+ height: 100%;
+ width: 100%;
+ background-size: cover;
+ background-image: url("../../content/img/nv1/tools/nv1_5_2.png");
+}
+
+.nv1_5 .popup .content {
+ position: absolute;
+ top: 289px;
+ left: 46px;
+ height: calc(801px/2);
+ width: calc(1762px/2);
+ background-size: cover;
+ background-image: url("../../content/img/nv1/tools/nv1_5_2_2.png");
+}
+
+.nv1_5 .popup .content.changed {
+ background-image: url("../../content/img/nv1/tools/nv1_5_2_1.png");
+}
+
+.nv1_5 .popup .switch {
+ position: absolute;
+ top: 627px;
+ left: 422px;
+ width: calc(355px/2);
+ height: calc(123px/2);
+}
+
+.nv1_5 .popup .close-btn {
+ position: absolute;
+ right: 22px;
+ top: 167px;
+ width: 50px;
+ height: 50px;
+}
+
+.nv1_5 .button {
+ position: absolute;
+ top: 560px;
+ left: 394px;
+ width: calc(464px/2);
+ height: calc(138px/2);
+}
 
 
 
