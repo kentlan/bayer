@@ -8,7 +8,24 @@ document.addEventListener('presentationInit', function() {
      app.menu.show(); 
      util.addClass(slide.element.painContent, 'active');
      presentetion.prev('nviz1', 'nviz1', "s1_6");
-     submitSlideEnter('s1_6', '6', 6, '6', 'A WH_Beauty_1_cycle_2015');	  
+     submitSlideEnter('s1_6', '6', 6, '6', 'A WH_Beauty_1_cycle_2015');
+
+
+        $('.nv1_6 .info-btn').click(
+            function () {
+                $('.nv1_6 .source').show().click(
+                    function () {
+                        $('.nv1_6 .source').hide();
+                    }
+                )
+            }
+        );
+
+        $('.nv1_6 .switch').click(
+            function () {
+                $(".nv1_6").toggleClass("changed");
+            }
+        );
    },
    onExit: function(ele) {
     submitSlideExit('s1_6');
