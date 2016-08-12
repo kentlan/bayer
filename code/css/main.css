@@ -771,163 +771,6 @@ sup {
 
 
 
-/*----------------------------------------------Klaira--------------------
----------------------------------------------------------------------------
--------------------------------------------------------------------*/
-
-
-
-/*----------------------------------------------Klaira--------------------
----------------------------------------------------------------------------
--------------------------------------------------------------------*/
-
-
-
-/*------------------------------------------------------------------
----------------------visana-----------------------------------------
--------------------------------------------------------------------*/
-
-/*slide 2_1 */ 
-
-.btn_wraper_2_1 {
-  position: absolute;
-  width: 583px;
-  height: 800px;
-  left: 407px;
-  top: 31px;  
-}
-
-#s2_1 .home_btn {
-  left: 32px; 
-}    
-
-.home_btn {
-  width: 40px;
-  height: 40px;
-  top: 701px;
-  left: 108px;  
-}
-
-.menu_btn {
-  width: 70px;
-  height: 40px;
-  top: 701px;
-  left: 27px;   
-}
-
-#s2_1 .btn_2_1 {
-  position:relative;
-  width: 100%;
-  height: 65px;
-  margin-bottom:3px;
-}
-
-#s2_1 .btn_2_31 {
-  position: absolute;
-  width: 346px;
-  height: 67px;
-  left: 33px;
-  top: 613px;
-}
-
-/*slide 2_3 */
-
-.slide_2_3_btn {
-  width: 226px;
-  height: 106px;
-}
-
-.btn_s2_3__1 {
-  top: 311px;
-  left: 769px;
-  width: 226px;
-  height: 106px;
-}
-
-.btn_s2_3__2 {
-  top: 551px;
-  left: 769px;
-  width: 226px;
-  height: 106px;  
-}
-
-.btn_s2_3__3 {
-  top: 484px;
-  left: 409px;
-  width: 226px;
-  height: 106px;  
-}
-
-.popup_s2_3__1 {
-  top: 277px; 
-  left: 769px;
-  width:246px;
-  height:200px;  
-  background-image: url(../../content/img/Vis/Vis_3_2.png); 
-}
-
-.popup_s2_3__2 {
-  top: 465px; 
-  left: 769px;
-  width:246px;
-  height:200px;  
-  background-image: url(../../content/img/Vis/Vis_3_4.png); 
-}
-
-.popup_s2_3__3 {
-  top: 474px; 
-  left: 409px;
-  width:246px;
-  height:200px;  
-  background-image: url(../../content/img/Vis/Vis_3_3.png); 
-}
-
-
-
-.btn_s2_31__1 {
-  top: 209px;
-  left: 123px;
-  width: 357px;
-  height: 220px;  
-}
-
-.btn_s2_31__2 {
-  top: 209px;
-  left: 523px;
-  width: 357px;
-  height: 220px; 
-}
-
-.btn_s2_31__3 {
-  top: 434px;
-  left: 323px;
-  width: 357px;
-  height: 220px;  
-}
-
-.popup_s2_31__1 {
-  top: 166px;
-  left: 100px;
-  width: 818px;
-  height: 414px;
-  background-image: url(../../content/img/Vis/Visanna_new_instr/Vis_new_instr_2.png);
-}
-
-.popup_s2_31__2 {
-  top: 166px;
-  left: 100px; 
-  width: 818px;
-  height: 448px; 
-  background-image: url(../../content/img/Vis/Visanna_new_instr/Vis_new_instr_3.png);
-}
-
-.popup_s2_31__3 {
-  top: 250px;
-  left: 100px;
-  width: 818px;
-  height: 296px;  
-  background-image: url(../../content/img/Vis/Visanna_new_instr/Vis_new_instr_4.png);
-}
 
 /*Превью*/
 
@@ -1023,21 +866,95 @@ sup {
 }
 
 
-.jass .indicator.active {
-  background-color: #FF7F16;
+.info-btn {
+ position: absolute;
+ right: 30px;
+ top: 30px;
+ width: 75px;
+ height: 75px;
 }
 
-.flex .indicator.active {
-  background-color: #A63B8D;
+.nv1_2 .source {
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 10;
+ height: 100%;
+ width: 100%;
+ background-size: cover;
+ background-image: url("../../content/img/nv1/tools/nv1_2_1_6.png");
 }
 
-.ang .indicator.active {
-  background-color: #874284;
+.nv1_2 .popup {
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 10;
+ height: 100%;
+ width: 100%;
+ background-size: cover;
+ background-image: url("../../content/img/nv1/tools/nv1_2_1_5.png");
 }
 
-.mir .indicator.active {
-  background-color: #007C96;
+.nv1_2 .popup .close-btn {
+ position: absolute;
+ right: 22px;
+ top: 167px;
+ width: 50px;
+ height: 50px;
 }
+
+.nv1_2 .switch_bones {
+ position: absolute;
+ top: 135px;
+ left: 8px;
+ width: 95%;
+ height: 100%;
+ background-image: url("../../content/img/nv1/tools/nv1_2_1_3a.png");
+ background-size: contain;
+}
+
+.nv1_2 .switch_bones.changed {
+ width: 98%;
+ background-image: url("../../content/img/nv1/tools/nv1_2_1_3b.png");
+}
+
+.nv1_2 .switch_bones .shapes {
+ position: absolute;
+ top: 143px;
+ left: 294px;
+ width: calc(398px/2);
+ height: calc(265px/2);
+ background-size: cover;
+ background-image: url("../../content/img/nv1/tools/nv1_2_1_2.png");
+}
+
+.nv1_2 .switch_bones .switch {
+ position: absolute;
+ top: 316px;
+ left: 625px;
+ width: calc(355px/2);
+ height: calc(123px/2);
+ background-size: cover;
+ background-image: url("../../content/img/nv1/tools/nv1_2_1_1a.png");
+}
+
+.nv1_2 .switch_bones .switch.changed {
+ background-image: url("../../content/img/nv1/tools/nv1_2_1_1b.png");
+}
+
+.nv1_2 .button {
+ position: absolute;
+ top: 568px;
+ left: 394px;
+ width: calc(464px/2);
+ height: calc(138px/2);
+ background-size: cover;
+ background-image: url("../../content/img/nv1/tools/nv1_2_1_4.png");
+}
+
 
 
 #nv1_4-drag {

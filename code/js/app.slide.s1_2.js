@@ -10,7 +10,33 @@
 				submitSlideEnter('s1_2', '2', 2, '2', 'A WH_Beauty_1_cycle_2015');
 				
 
-				
+				$('.nv1_2 .info-btn').click(
+					function () {
+						$('.nv1_2 .source').show().click(
+							function () {
+								$('.nv1_2 .source').hide();
+							}
+						)
+					}
+				);
+
+				$('.nv1_2 .switch_bones .switch').click(
+					function () {
+						$(this).toggleClass("changed");
+						$(".nv1_2 .switch_bones ").toggleClass("changed");
+					}
+				);
+
+				$('.nv1_2 .button').click(
+					function () {
+						$('.nv1_2 .popup').show();
+						$('.nv1_2 .popup .close-btn').click(
+							function () {
+								$('.nv1_2 .popup').hide();
+							}
+						)
+					}
+				)
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_2');
