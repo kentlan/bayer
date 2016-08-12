@@ -930,7 +930,7 @@ textarea {
     background-image: url("../../content/img/nv1/tools/nv1_2_1_1b.png");
 }
 
-.nv1_2 .button {
+.nv1_2 .button, .rv1_2 .button {
     position: absolute;
     top: 568px;
     left: 394px;
@@ -940,7 +940,7 @@ textarea {
     background-image: url("../../content/img/nv1/tools/nv1_2_1_4.png");
 }
 
-#nv1_3-drag, #nv1_4-drag, #nv2_3-drag, #nv2_4-drag {
+#nv1_3-drag, #nv1_4-drag, #nv2_3-drag, #nv2_4-drag, #rv1_3-drag, #rv1_4-drag {
     position: absolute;
     left: 283px;
     top: 449px;
@@ -950,15 +950,15 @@ textarea {
     background-size: cover;
 }
 
-#nv1_3-drag, #nv2_3-drag {
+#nv1_3-drag, #nv2_3-drag, #rv1_3-drag {
     background-image: url("../../content/img/nv1/tools/nv1_3_1.png");
 }
 
-#nv1_4-drag, #nv2_4-drag {
+#nv1_4-drag, #nv2_4-drag, #rv1_4-drag {
     background-image: url("../../content/img/nv1/tools/nv1_4_1.png");
 }
 
-#nv1_3-drop, #nv1_4-drop, #nv2_3-drop, #nv2_4-drop {
+#nv1_3-drop, #nv1_4-drop, #nv2_3-drop, #nv2_4-drop, #rv1_3-drop, #rv1_4-drop {
     height: 355px;
     width: 355px;
     border-radius: 50%;
@@ -1080,7 +1080,7 @@ textarea {
     background-image: url("../../content/img/nv2/tools/nv2_2_1_2b.png");
 }
 
-.nv2_2 .slider {
+.nv2_2 .slider, .rv1_2 .slider  {
     position: relative;
     top: 294px;
     left: 60px;
@@ -1090,7 +1090,7 @@ textarea {
     background-image: url("../../content/img/slider.png")
 }
 
-.nv2_2 .slider #nv2_2_slider {
+.nv2_2 .slider #nv2_2_slider, .rv1_2 .slider #rv1_2_slider {
     position: absolute;
     top: 2px;
     height: calc(107px / 2);
@@ -1099,7 +1099,7 @@ textarea {
     border: none;
 }
 
-.nv2_2 .slider #nv2_2_slider .ui-slider-handle {
+.nv2_2 .slider #nv2_2_slider .ui-slider-handle, .rv1_2 .slider #rv1_2_slider .ui-slider-handle {
     height: calc(141px / 2);
     width: calc(246px / 2);
     background-size: cover;
@@ -1108,7 +1108,7 @@ textarea {
     border: none;
 }
 
-.nv2_2 .slider #nv2_2_slider .ui-slider-range-min {
+.nv2_2 .slider #nv2_2_slider .ui-slider-range-min, .rv1_2 .slider #rv1_2_slider .ui-slider-range-min {
     background-size: cover;
     background-color: transparent;
     background-image: url("../../content/img/slider-blue.png");
@@ -1224,4 +1224,43 @@ textarea {
 
 .nv3_3>.popup .source {
     background-image: url("../../content/img/nv3/tools/nv3_3_2_2.png");
+}
+
+.rv1_2 .slider {
+    top: 425px;
+    left: 501px;
+}
+
+.rv1_2 .knee {
+    position: absolute;
+    top: 127px;
+    left: 0;
+    height: calc(1068px / 2);
+    width: calc(984px / 2);
+    background-size: cover;
+    background-image: url("../../content/img/rv1/tools/rv1_2_1.png");
+}
+
+.rv1_2 .knee.stage2 {
+    background-image: url("../../content/img/rv1/tools/rv1_2_2.png");
+}
+
+.rv1_2 .knee.stage3 {
+    background-image: url("../../content/img/rv1/tools/rv1_2_3.png");
+}
+
+.rv1_2 .popup {
+    background-image: url("../../content/img/rv1/tools/rv1_2_4.png");
+}
+
+.rv1_2 .popup .close-btn {
+    position: absolute;
+    right: 22px;
+    top: 167px;
+    width: 50px;
+    height: 50px;
+}
+
+.rv1_2 .source {
+    background-image: url("../../content/img/rv1/tools/rv1_2_5.png");
 }
