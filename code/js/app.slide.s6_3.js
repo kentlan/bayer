@@ -10,6 +10,24 @@
 				presentetion.menuTopSelected("menu_top_2");
 				presentetion.prev('nviz6', 'nviz6', "s6_3");
 				//submitSlideEnter('s1_1', '1', 1, '1', 'A WH_Beauty_1_cycle_2015');
+
+				openSource('.rv3_3>.info-btn', '.rv3_3>.source');
+				openSource('.rv3_3>.popup .info-btn', '.rv3_3>.popup .source');
+
+				$('.rv3_3 .switch').click(
+					function () {
+						$(".rv3_3").toggleClass("changed");
+					}
+				);
+
+				openPopup('.rv3_3 .button', ".rv3_3>.popup");
+				openPopup('.rv3_3>.popup .button', ".rv3_3>.popup>.popup.synergy");
+
+				$('.rv3_3>.popup>.popup.synergy .close-btn').click(
+					function () {
+						$('.rv3_3>.popup').show();
+					}
+				)
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s6_3');

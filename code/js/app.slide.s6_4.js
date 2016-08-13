@@ -10,6 +10,14 @@
 				presentetion.menuTopSelected("menu_top_3");
 				presentetion.prev('nviz6', 'nviz6', "s6_4");
 				//submitSlideEnter('s1_1', '1', 1, '1', 'A WH_Beauty_1_cycle_2015');
+
+				openSource('.rv3_4 .info-btn', '.rv3_4 .source');
+
+				$('.rv3_4 .switch').click(
+					function () {
+						$(".rv3_4").toggleClass("changed");
+					}
+				);
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s6_4');

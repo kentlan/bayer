@@ -1017,8 +1017,18 @@ textarea {
     left: 422px;
 }
 
+.rv3_4 .switch {
+    position: absolute;
+    top: 565px;
+    left: 422px;
+}
+
 .nv1_6.changed, .nv2_6.changed, .nv3_4.changed{
     background-image: url("../../content/img/nv1/tools/nv1_6_1.png") !important;
+}
+
+.rv3_4.changed{
+    background-image: url("../../content/img/rv3/tools/rv3_6_1.png") !important;
 }
 
 .nv1_6 .info-btn, .nv2_6 .info-btn, .nv3_4 .info-btn, .rv1_6 .info-btn, .rv2_6 .info-btn {
@@ -1028,6 +1038,10 @@ textarea {
 
 .nv1_6 .source, .nv2_6 .source, .nv3_4 .source{
     background-image: url("../../content/img/nv1/tools/nv1_6_2.png");
+}
+
+.rv3_4 .source {
+    background-image: url("../../content/img/rv3/tools/rv3_4_3.png");
 }
 
 .nv2_2 .container,  .rv2_2 .container{
@@ -1163,21 +1177,21 @@ textarea {
     left: 422px;
 }
 
-.nv3_3.changed {
+.nv3_3.changed, .rv3_3.changed {
     background-image: url("../../content/img/nv3/tools/nv3_3_1.png") !important;
 }
 
-.nv3_3 .switch {
+.nv3_3 .switch, .rv3_3 .switch {
     position: absolute;
     top: 558px;
     left: 690px;
 }
 
-.nv3_3 .source {
+.nv3_3 .source, .rv3_3 .source {
     background-image: url("../../content/img/nv3/tools/nv3_4_3.png");
 }
 
-.nv3_3>.button {
+.nv3_3>.button, .rv3_3>.button {
     position: absolute;
     right: 28px;
     top: 578px;
@@ -1187,11 +1201,11 @@ textarea {
     background-image: url("../../content/img/nv3/tools/nv3_3_2_3.png");
 }
 
-.nv3_3 .popup {
+.nv3_3 .popup, .rv3_3 .popup  {
     background-image: url("../../content/img/nv3/tools/nv3_3_2.png");
 }
 
-.nv3_3 .popup .close-btn {
+.nv3_3 .popup .close-btn, .rv3_3 .popup .close-btn {
     position: absolute;
     right: 22px;
     top: 167px;
@@ -1199,7 +1213,7 @@ textarea {
     height: 50px;
 }
 
-.nv3_3 .popup .close-btn.synergy {
+.nv3_3 .popup .close-btn.synergy, .rv3_3 .popup .close-btn.synergy  {
     position: absolute;
     right: 22px;
     top: 167px;
@@ -1210,7 +1224,7 @@ textarea {
     background-image: url("../../content/img/nv3/tools/nv3_3_2_close.png");
 }
 
-.nv3_3 .popup .button {
+.nv3_3 .popup .button, .rv3_3 .popup .button {
     position: absolute;
     top: 568px;
     left: 394px;
@@ -1219,12 +1233,12 @@ textarea {
     z-index: 45;
 }
 
-.nv3_3 .popup .popup {
+.nv3_3 .popup .popup, .rv3_3 .popup .popup {
     background-image: url("../../content/img/nv3/tools/nv3_3_2_1.png");
     z-index: 50;
 }
 
-.nv3_3>.popup .source {
+.nv3_3>.popup .source, .rv3_3>.popup .source {
     background-image: url("../../content/img/nv3/tools/nv3_3_2_2.png");
 }
 
