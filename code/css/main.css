@@ -940,7 +940,7 @@ textarea {
     background-image: url("../../content/img/nv1/tools/nv1_2_1_4.png");
 }
 
-#nv1_3-drag, #nv1_4-drag, #nv2_3-drag, #nv2_4-drag, #rv1_3-drag, #rv1_4-drag {
+#nv1_3-drag, #nv1_4-drag, #nv2_3-drag, #nv2_4-drag, #rv1_3-drag, #rv1_4-drag, #rv2_3-drag, #rv2_4-drag {
     position: absolute;
     left: 283px;
     top: 449px;
@@ -950,15 +950,15 @@ textarea {
     background-size: cover;
 }
 
-#nv1_3-drag, #nv2_3-drag, #rv1_3-drag {
+#nv1_3-drag, #nv2_3-drag, #rv1_3-drag, #rv2_3-drag {
     background-image: url("../../content/img/nv1/tools/nv1_3_1.png");
 }
 
-#nv1_4-drag, #nv2_4-drag, #rv1_4-drag {
+#nv1_4-drag, #nv2_4-drag, #rv1_4-drag, #rv2_4-drag {
     background-image: url("../../content/img/nv1/tools/nv1_4_1.png");
 }
 
-#nv1_3-drop, #nv1_4-drop, #nv2_3-drop, #nv2_4-drop, #rv1_3-drop, #rv1_4-drop {
+#nv1_3-drop, #nv1_4-drop, #nv2_3-drop, #nv2_4-drop, #rv1_3-drop, #rv1_4-drop, #rv2_3-drop, #rv2_4-drop {
     height: 355px;
     width: 355px;
     border-radius: 50%;
@@ -967,15 +967,15 @@ textarea {
     left: 569px;
 }
 
-.nv1_5 .source, .nv2_5 .source, .rv1_5 .source {
+.nv1_5 .source, .nv2_5 .source, .rv1_5 .source, .rv2_5 .source {
     background-image: url("../../content/img/nv1/tools/nv1_5_1.png");
 }
 
-.nv1_5 .popup, .nv2_5 .popup, .rv1_5 .popup {
+.nv1_5 .popup, .nv2_5 .popup, .rv1_5 .popup, .rv2_5 .popup {
     background-image: url("../../content/img/nv1/tools/nv1_5_2.png");
 }
 
-.nv1_5 .popup .content, .nv2_5 .popup .content, .rv1_5 .popup .content{
+.nv1_5 .popup .content, .nv2_5 .popup .content, .rv1_5 .popup .content, .rv2_5 .popup .content{
     position: absolute;
     top: 289px;
     left: 46px;
@@ -985,17 +985,17 @@ textarea {
     background-image: url("../../content/img/nv1/tools/nv1_5_2_2.png");
 }
 
-.nv1_5 .popup .content.changed, .nv2_5 .popup .content.changed, .rv1_5 .popup .content.changed  {
+.nv1_5 .popup .content.changed, .nv2_5 .popup .content.changed, .rv1_5 .popup .content.changed, .rv2_5 .popup .content.changed  {
     background-image: url("../../content/img/nv1/tools/nv1_5_2_1.png");
 }
 
-.nv1_5 .popup .switch, .nv2_5 .popup .switch, .rv1_5 .popup .switch {
+.nv1_5 .popup .switch, .nv2_5 .popup .switch, .rv1_5 .popup .switch,  .rv2_5 .popup .switch {
     position: absolute;
     top: 627px;
     left: 422px;
 }
 
-.nv1_5 .popup .close-btn, .nv2_5 .popup .close-btn, .rv1_5 .popup .close-btn{
+.nv1_5 .popup .close-btn, .nv2_5 .popup .close-btn, .rv1_5 .popup .close-btn,  .rv2_5 .popup .close-btn{
     position: absolute;
     right: 22px;
     top: 167px;
@@ -1003,7 +1003,7 @@ textarea {
     height: 50px;
 }
 
-.nv1_5 .button, .nv2_5 .button, .rv1_5 .button,.rv1_5 .button {
+.nv1_5 .button, .nv2_5 .button, .rv1_5 .button,.rv1_5 .button, .rv2_5 .button {
     position: absolute;
     top: 560px;
     left: 394px;
@@ -1011,7 +1011,7 @@ textarea {
     height: calc(138px / 2);
 }
 
-.nv1_6 .switch, .nv2_6 .switch, .nv3_4 .switch, .rv1_6 .switch {
+.nv1_6 .switch, .nv2_6 .switch, .nv3_4 .switch, .rv1_6 .switch, .rv2_6 .switch {
     position: absolute;
     top: 565px;
     left: 422px;
@@ -1021,7 +1021,7 @@ textarea {
     background-image: url("../../content/img/nv1/tools/nv1_6_1.png") !important;
 }
 
-.nv1_6 .info-btn, .nv2_6 .info-btn, .nv3_4 .info-btn, .rv1_6 .info-btn {
+.nv1_6 .info-btn, .nv2_6 .info-btn, .nv3_4 .info-btn, .rv1_6 .info-btn, .rv2_6 .info-btn {
     right: 50px;
     top: 45px;
 }
@@ -1030,7 +1030,7 @@ textarea {
     background-image: url("../../content/img/nv1/tools/nv1_6_2.png");
 }
 
-.nv2_2 .container {
+.nv2_2 .container,  .rv2_2 .container{
     position: relative;
     left: 444px;
     top: 126px;
@@ -1041,7 +1041,7 @@ textarea {
     z-index: 30;
 }
 
-.nv2_2 .container-footer {
+.nv2_2 .container-footer, .rv2_2 .container-footer {
     position: absolute;
     right: 0;
     height: calc(203px / 2);
@@ -1050,7 +1050,7 @@ textarea {
     background-image: url("../../content/img/nv2/tools/nv2_2_1_4b.png");
 }
 
-.nv2_2 .disease {
+.nv2_2 .disease, .rv2_2 .disease {
     position: absolute;
     top: 127px;
     left: 0;
@@ -1061,11 +1061,11 @@ textarea {
     z-index: 20;
 }
 
-.nv2_2 .disease.changed {
+.nv2_2 .disease.changed, .rv2_2 .disease.changed {
     background-image: url("../../content/img/nv2/tools/nv2_2_1_3b.png");
 }
 
-.nv2_2 .tissue {
+.nv2_2 .tissue, .rv2_2 .tissue {
     position: absolute;
     bottom: 108px;
     left: 0;
@@ -1076,11 +1076,11 @@ textarea {
     z-index: 10;
 }
 
-.nv2_2 .tissue.changed {
+.nv2_2 .tissue.changed, .rv2_2 .tissue.changed {
     background-image: url("../../content/img/nv2/tools/nv2_2_1_2b.png");
 }
 
-.nv2_2 .slider, .rv1_2 .slider  {
+.nv2_2 .slider, .rv1_2 .slider, .rv2_2 .slider {
     position: relative;
     top: 294px;
     left: 60px;
@@ -1090,7 +1090,7 @@ textarea {
     background-image: url("../../content/img/slider.png")
 }
 
-.nv2_2 .slider #nv2_2_slider, .rv1_2 .slider #rv1_2_slider {
+.nv2_2 .slider #nv2_2_slider, .rv1_2 .slider #rv1_2_slider, .rv2_2 .slider #rv2_2_slider {
     position: absolute;
     top: 2px;
     height: calc(107px / 2);
@@ -1099,7 +1099,8 @@ textarea {
     border: none;
 }
 
-.nv2_2 .slider #nv2_2_slider .ui-slider-handle, .rv1_2 .slider #rv1_2_slider .ui-slider-handle {
+.nv2_2 .slider #nv2_2_slider .ui-slider-handle, .rv1_2 .slider #rv1_2_slider .ui-slider-handle,
+.rv2_2 .slider #rv2_2_slider .ui-slider-handle{
     height: calc(141px / 2);
     width: calc(246px / 2);
     background-size: cover;
@@ -1108,7 +1109,8 @@ textarea {
     border: none;
 }
 
-.nv2_2 .slider #nv2_2_slider .ui-slider-range-min, .rv1_2 .slider #rv1_2_slider .ui-slider-range-min {
+.nv2_2 .slider #nv2_2_slider .ui-slider-range-min, .rv1_2 .slider #rv1_2_slider .ui-slider-range-min,
+.rv2_2 .slider #rv2_2_slider .ui-slider-range-min{
     background-size: cover;
     background-color: transparent;
     background-image: url("../../content/img/slider-blue.png");
@@ -1121,7 +1123,7 @@ textarea {
     font-size: 30px;
 }
 
-.nv2_2 .button {
+.nv2_2 .button, .rv2_2 .button{
     position: absolute;
     top: 568px;
     left: 394px;
@@ -1132,11 +1134,11 @@ textarea {
     z-index: 35;
 }
 
-.nv2_2 .popup {
+.nv2_2 .popup, .rv2_2 .popup {
     background-image: url("../../content/img/nv2/tools/nv2_2_4.png");
 }
 
-.nv2_2 .popup .close-btn {
+.nv2_2 .popup .close-btn, .rv2_2 .popup .close-btn {
     position: absolute;
     right: 22px;
     top: 167px;
@@ -1144,12 +1146,12 @@ textarea {
     height: 50px;
 }
 
-.nv2_2 .info-btn {
+.nv2_2 .info-btn, .rv2_2 .info-btn {
     right: 50px;
     top: 45px;
 }
 
-.nv2_2 .source {
+.nv2_2 .source, .rv2_2 .source  {
     background-image: url("../../content/img/nv2/tools/nv2_2_3.png");
 }
 
@@ -1265,7 +1267,7 @@ textarea {
     background-image: url("../../content/img/rv1/tools/rv1_2_5.png");
 }
 
-.rv1_6 .source {
+.rv1_6 .source, .rv2_6 .source {
     background-image: url("../../content/img/rv1/tools/rv1_6_2.png");
 }
 

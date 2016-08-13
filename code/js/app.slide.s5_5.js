@@ -8,8 +8,18 @@
 				util.addClass(slide.element.painContent, 'active');
 				presentetion.menuTop("Mir");	
 				presentetion.menuTopSelected("menu_top_4");
-				presentetion.prev('viz5', 'viz5', "s5_5");
+				presentetion.prev('nviz5', 'nviz5', "s5_5");
 				//submitSlideEnter('s1_1', '1', 1, '1', 'A WH_Beauty_1_cycle_2015');
+
+				openSource('.rv2_5 .info-btn', '.rv2_5 .source');
+
+				$('.rv2_5 .popup .switch').click(
+					function () {
+						$(".rv2_5 .popup .content ").toggleClass("changed");
+					}
+				);
+
+				openPopup('.rv2_5 .button', '.rv2_5 .popup');
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s5_5');

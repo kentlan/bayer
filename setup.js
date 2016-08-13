@@ -274,6 +274,20 @@ var presentetion = {
 						<li class="menu_top_9" ontouchend="app.goTo(\'s4_1s\', \'s4_42\')"><span>Что выбирают<br>эксперты?</span></li>\
 					</ul></nav>';
 			};
+			if(product == 'rviz2') {
+				menu.innerHTML = '<nav id="menuTop" class="">\
+					<ul id="menu-1" class="menu_top menu_rviz2">\
+						<li class="home-menu menu_top_1" ontouchend="app.goTo(\'s1s\', \'s1\')"><span ontouchend="app.goTo(\'s1s\', \'s1\')"><img ontouchend="app.goTo(\'s1s\', \'s1\')" src="content/img/menu/home-button.png"></span></li>\
+						<li class="menu_top_2" ontouchend="app.goTo(\'s5_1s\', \'s5_2\')"><span>Что такое <br>ВМС Мирена<sup>&reg;</sup>?</span></li>\
+						<li class="menu_top_3" ontouchend="app.goTo(\'s5_1s\', \'s5_4\')"><span>Эффективность</span></li>\
+						<li class="menu_top_4" ontouchend="app.goTo(\'s5_1s\', \'s5_5\')"><span>Безопасность<br/>и переносимость</span></li>\
+						<li class="menu_top_5" ontouchend="app.goTo(\'s5_1s\', \'s5_11\')"><span>ОМК</span></li>\
+						<li class="menu_top_6" ontouchend="app.goTo(\'s5_1s\', \'s5_17\')"><span>Компонент МГТ</span></li>\
+						<li class="menu_top_7" ontouchend="app.goTo(\'s5_1s\', \'s5_21\')"><span>Портреты<br>пациенток</span></li>\
+						<li class="menu_top_8" ontouchend="app.goTo(\'s5_1s\', \'s5_36\')"><span>Мирабель</span></li>\
+						<li class="menu_top_9" ontouchend="app.goTo(\'s5_1s\', \'s5_42\')"><span>Что выбирают<br>эксперты?</span></li>\
+					</ul></nav>';
+			}
 			scrolNav();	
 		},
 
