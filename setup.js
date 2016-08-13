@@ -169,7 +169,7 @@ var presentetion = {
 					handle_middle.appendChild(slideTrumb);
 
 					var slidePrev = document.createElement('li');
-					slidePrev.innerHTML = '<li class="prev" id="' + prew[presId][groupId][i] + '_prev" onclick="app.goTo(\''+ prew[presId]["prevId"] + '\',\'' + prew[presId][groupId][i] + '\')" ><img  src="content/img/thumbs/' + prew[presId][groupId][i] + '.jpg"></li>'				
+					slidePrev.innerHTML = '<li class="prev" id="' + prew[presId][groupId][i] + '_prev" onclick="app.goTo(\''+ prew[presId]["prevId"] + '\',\'' + prew[presId][groupId][i] + '\')" ><img  src="content/img/thumbs/' + prew[presId][groupId][i] + '.jpg"></li>'
 					preview_container.appendChild(slidePrev);
 				};
 				presentetion.secondId = groupId;
