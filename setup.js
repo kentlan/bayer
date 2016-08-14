@@ -97,7 +97,7 @@ var presentetion = {
 	bgStyle: function(img, slide, count) {
 		for (var i = 1; i <= count; i++) {
 			bgImg = document.getElementsByClassName(slide + i);
-			bgImg[0].style.backgroundImage = "url('content/img/"+ img + "/" + img + "_" + i + ".png')";
+			bgImg[0].style.backgroundImage = "url('content/img/"+ img + "/" + img + "_" + i + ".jpg')";
 		}
 	},
 	popup: function(id) {
