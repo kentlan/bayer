@@ -7656,7 +7656,7 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			onExit:function(slideElement){
 				submitSlideExit('s6_3');
 				
-	
+				closePopup();
 			}
 		}
 
@@ -7750,7 +7750,7 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			onExit:function(slideElement){
 				submitSlideExit('s6_4');
 				
-	
+				closePopup();
 			}
 		}
 
