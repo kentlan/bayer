@@ -24,6 +24,8 @@
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_5');
+
+				closePopup();
 			}
 		}
 

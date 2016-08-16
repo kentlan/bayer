@@ -40,7 +40,9 @@
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_2');
-				
+				closePopup();
+				$('.nv1_2 .switch_bones .switch, .nv1_2 .switch_bones ').removeClass("changed");
+
 			}
 		}
 

@@ -30,7 +30,8 @@
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s3_1');
-	
+
+				closePopup();
 			}
 		}
 

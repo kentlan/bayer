@@ -21,7 +21,7 @@
 				util.removeClass(slide.element.painContent,'active');
 				submitSlideExit('s2_6');
 				
-	
+				closePopup();
 			}
 		}
 

@@ -22,3 +22,7 @@
                 }
             );
         };
+
+        var closePopup = function () {
+            $(".popup, .source").hide();
+        };

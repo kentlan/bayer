@@ -17,11 +17,12 @@
 
 					$('.ui-slider-handle').html(tooltip);
 
-					if(ui.value >= 10) {
+					if(ui.value == 10) {
 						$('.rv2_2 .disease').hide();
 						$('.rv2_2 .tissue').addClass("changed");
 					} else if (ui.value >= 5) {
-						$('.rv2_2 .disease').addClass("changed");
+						$('.rv2_2 .disease').show().addClass("changed");
+						$('.rv2_2 .tissue').show().removeClass("changed");
 					} else {
 						$('.rv2_2 .disease, .rv2_2 .tissue').show().removeClass("changed");
 					}
@@ -49,7 +50,10 @@
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s5_2');
-				
+				closePopup();
+
+				$('.rv2_2 .disease, .rv2_2 .tissue').show().removeClass("changed");
+				$('.tooltip-inner').html('1');
 	
 			}
 		}

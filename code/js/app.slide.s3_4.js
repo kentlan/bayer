@@ -22,7 +22,7 @@
 				util.removeClass(slide.element.painContent,'active');
 				submitSlideExit('s3_4');
 				
-	
+				closePopup();
 			}
 		}
 

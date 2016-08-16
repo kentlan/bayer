@@ -16,10 +16,10 @@
 
 					$('.ui-slider-handle').html(tooltip);
 
-					if(ui.value >= 200) {
+					if(ui.value == 200) {
 						$('.rv1_2 .knee').removeClass("stage2").addClass("stage3");
 					} else if (ui.value >= 100 && ui.value < 200) {
-						$('.rv1_2 .knee').addClass("stage2");
+						$('.rv1_2 .knee').addClass("stage2").removeClass("stage3");
 					} else if(ui.value < 100) {
 						$('.rv1_2 .knee').removeClass("stage2").removeClass("stage3");
 					}
@@ -45,6 +45,9 @@
 			onExit:function(slideElement){
 				submitSlideExit('s4_2');
 
+				closePopup();
+				$('.rv1_2 .knee').removeClass("stage2").removeClass("stage3");
+				$('.tooltip-inner').html('1');
 			}
 		}
 

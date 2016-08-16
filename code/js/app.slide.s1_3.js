@@ -25,6 +25,9 @@
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_3');
+
+				$('#nv1_3-drag').draggable('destroy').show(500);
+				$('#nv1_3-drop').droppable('destroy');
 			}
 		}
 

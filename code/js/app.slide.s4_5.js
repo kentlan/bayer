@@ -23,7 +23,7 @@
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s4_5');
-				
+				closePopup();
 	
 			}
 		}

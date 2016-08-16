@@ -27,7 +27,8 @@
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s5_4');
-				
+				$('#rv2_4-drag').draggable('destroy').show(500);
+				$('#rv2_4-drop').droppable('destroy');
 	
 			}
 		}

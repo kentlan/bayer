@@ -26,7 +26,9 @@
 			onExit:function(slideElement){
 				util.removeClass(slide.element.painContent,'active');
 				submitSlideExit('s2_4');
-				
+
+				$('#nv2_4-drag').draggable('destroy').show(500);
+				$('#nv2_4-drop').droppable('destroy');
 	
 			}
 		}

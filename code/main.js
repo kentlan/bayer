@@ -21,6 +21,10 @@
                     )
                 }
             );
+        };
+
+        var closePopup = function () {
+            $(".popup, .source").hide();
         };;/**
  * agnitio.js
  *
@@ -4476,7 +4480,9 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_2');
-				
+				closePopup();
+				$('.nv1_2 .switch_bones .switch, .nv1_2 .switch_bones ').removeClass("changed");
+
 			}
 		}
 
@@ -4576,6 +4582,9 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_3');
+
+				$('#nv1_3-drag').draggable('destroy').show(500);
+				$('#nv1_3-drop').droppable('destroy');
 			}
 		}
 
@@ -4678,6 +4687,9 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;document.addEve
         onExit: function (slideElement) {
             submitSlideExit('s1_4');
 
+            $('#nv1_4-drag').draggable('destroy').show(500);
+            $('#nv1_4-drop').droppable('destroy');
+
             presentetion.closePopup();
 
         }
@@ -4718,6 +4730,8 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;document.addEve
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s1_5');
+
+				closePopup();
 			}
 		}
 
@@ -4745,6 +4759,8 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;document.addEve
    },
    onExit: function(ele) {
     submitSlideExit('s1_6');
+
+       closePopup();
   }
 };
 
@@ -5020,16 +5036,16 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 
 					$('.ui-slider-handle').html(tooltip);
 
-					if(ui.value >= 10) {
+					if(ui.value == 10) {
 						$('.nv2_2 .disease').hide();
 						$('.nv2_2 .tissue').addClass("changed");
 					} else if (ui.value >= 5) {
-						$('.nv2_2 .disease').addClass("changed");
+						$('.nv2_2 .disease').show().addClass("changed");
+						$('.nv2_2 .tissue').show().removeClass("changed");
 					} else {
 						$('.nv2_2 .disease, .nv2_2 .tissue').show().removeClass("changed");
 					}
-
-				}
+				};
 
 				$( "#nv2_2_slider" ).slider({
 					value : 0,
@@ -5052,8 +5068,10 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s2_1');
-				
-	
+				closePopup();
+
+				$('.nv2_2 .disease, .nv2_2 .tissue').show().removeClass("changed");
+				$('.tooltip-inner').html('1');
 			}
 		}
 
@@ -5150,7 +5168,9 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s2_1');
-				
+
+				$('#nv2_3-drag').draggable('destroy').show(500);
+				$('#nv2_3-drop').droppable('destroy');
 	
 			}
 		}
@@ -5249,7 +5269,9 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			onExit:function(slideElement){
 				util.removeClass(slide.element.painContent,'active');
 				submitSlideExit('s2_4');
-				
+
+				$('#nv2_4-drag').draggable('destroy').show(500);
+				$('#nv2_4-drop').droppable('destroy');
 	
 			}
 		}
@@ -5345,7 +5367,7 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 				util.removeClass(slide.element.painContent,'active');
 				submitSlideExit('s2_4');
 				
-	
+				closePopup();
 			}
 		}
 
@@ -5438,7 +5460,7 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 				util.removeClass(slide.element.painContent,'active');
 				submitSlideExit('s2_6');
 				
-	
+				closePopup();
 			}
 		}
 
@@ -5805,7 +5827,8 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s3_1');
-	
+
+				closePopup();
 			}
 		}
 
@@ -5899,7 +5922,7 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 				util.removeClass(slide.element.painContent,'active');
 				submitSlideExit('s3_4');
 				
-	
+				closePopup();
 			}
 		}
 
@@ -6160,10 +6183,10 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 
 					$('.ui-slider-handle').html(tooltip);
 
-					if(ui.value >= 200) {
+					if(ui.value == 200) {
 						$('.rv1_2 .knee').removeClass("stage2").addClass("stage3");
 					} else if (ui.value >= 100 && ui.value < 200) {
-						$('.rv1_2 .knee').addClass("stage2");
+						$('.rv1_2 .knee').addClass("stage2").removeClass("stage3");
 					} else if(ui.value < 100) {
 						$('.rv1_2 .knee').removeClass("stage2").removeClass("stage3");
 					}
@@ -6189,6 +6212,9 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			onExit:function(slideElement){
 				submitSlideExit('s4_2');
 
+				closePopup();
+				$('.rv1_2 .knee').removeClass("stage2").removeClass("stage3");
+				$('.tooltip-inner').html('1');
 			}
 		}
 
@@ -6287,7 +6313,8 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s4_3');
-				
+				$('#nv3_3-drag').draggable('destroy').show(500);
+				$('#nv3_3-drop').droppable('destroy');
 	
 			}
 		}
@@ -6387,7 +6414,8 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s4_4');
-				
+				$('#nv3_4-drag').draggable('destroy').show(500);
+				$('#nv3_4-drop').droppable('destroy');
 	
 			}
 		}
@@ -6483,7 +6511,7 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s4_5');
-				
+				closePopup();
 	
 			}
 		}
@@ -6577,7 +6605,7 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s4_6');
-				
+				closePopup();
 	
 			}
 		}
@@ -6836,11 +6864,12 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 
 					$('.ui-slider-handle').html(tooltip);
 
-					if(ui.value >= 10) {
+					if(ui.value == 10) {
 						$('.rv2_2 .disease').hide();
 						$('.rv2_2 .tissue').addClass("changed");
 					} else if (ui.value >= 5) {
-						$('.rv2_2 .disease').addClass("changed");
+						$('.rv2_2 .disease').show().addClass("changed");
+						$('.rv2_2 .tissue').show().removeClass("changed");
 					} else {
 						$('.rv2_2 .disease, .rv2_2 .tissue').show().removeClass("changed");
 					}
@@ -6868,7 +6897,10 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s5_2');
-				
+				closePopup();
+
+				$('.rv2_2 .disease, .rv2_2 .tissue').show().removeClass("changed");
+				$('.tooltip-inner').html('1');
 	
 			}
 		}
@@ -6968,7 +7000,8 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s5_3');
-				
+				$('#rv2_3-drag').draggable('destroy').show(500);
+				$('#rv2_3-drop').droppable('destroy');
 	
 			}
 		}
@@ -7068,7 +7101,8 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s5_4');
-				
+				$('#rv2_4-drag').draggable('destroy').show(500);
+				$('#rv2_4-drop').droppable('destroy');
 	
 			}
 		}
@@ -7164,7 +7198,7 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s5_5');
-				
+				closePopup();
 	
 			}
 		}
@@ -7258,7 +7292,7 @@ setTimeout(function() { app.slideshow.scrollTo(link1) }, 500);*/;	document.addEv
 			},
 			onExit:function(slideElement){
 				submitSlideExit('s5_6');
-				
+				closePopup();
 	
 			}
 		}

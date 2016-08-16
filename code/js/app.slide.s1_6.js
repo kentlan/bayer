@@ -21,6 +21,8 @@ document.addEventListener('presentationInit', function() {
    },
    onExit: function(ele) {
     submitSlideExit('s1_6');
+
+       closePopup();
   }
 };
 

@@ -28,6 +28,9 @@ document.addEventListener('presentationInit', function () {
         onExit: function (slideElement) {
             submitSlideExit('s1_4');
 
+            $('#nv1_4-drag').draggable('destroy').show(500);
+            $('#nv1_4-drop').droppable('destroy');
+
             presentetion.closePopup();
 
         }
