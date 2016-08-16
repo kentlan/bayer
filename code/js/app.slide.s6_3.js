@@ -32,7 +32,7 @@
 			onExit:function(slideElement){
 				submitSlideExit('s6_3');
 				
-	
+				closePopup();
 			}
 		}
 

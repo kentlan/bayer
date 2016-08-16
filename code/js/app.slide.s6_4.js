@@ -22,7 +22,7 @@
 			onExit:function(slideElement){
 				submitSlideExit('s6_4');
 				
-	
+				closePopup();
 			}
 		}
 
